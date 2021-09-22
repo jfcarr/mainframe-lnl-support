@@ -1,0 +1,23 @@
+4c4
+< //            MSGCLASS=A,                                               
+---
+> //            MSGCLASS=H,                                               
+20,31d19
+< static void song( int bottles )                                         
+< {                                                                       
+<  while( (printf(" %d bottles of beer on the wall, %d bottles of beer.\n"
+<       " Take one down and pass it around, %d bottle%s of beer on the wal
+<          bottles, bottles, bottles-1, bottles>2? "s":""), bottles > 2) )
+<   while( (--bottles,0) ) {}                                             
+<  while( (puts(" 1 bottle of beer on the wall, 1 bottle of beer.\n"      
+<    " Take one down and pass it around, no more bottles of beer on the wa
+<       " No more bottles of beer on the wall, no more bottles of beer.\n"
+<   " Go to the store and buy some more, 99 bottles of beer on the wall.")
+< }                                                                       
+<                                                                         
+34c22,24
+<  while( (song(99), exit(0), 0) ) {}                                     
+---
+>  printf ("Hello, world!\n");
+> 
+>  return(0);

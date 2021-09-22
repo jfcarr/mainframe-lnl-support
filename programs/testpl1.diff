@@ -1,0 +1,6 @@
+4c4
+< //             MSGCLASS=A,                                              
+---
+> //             MSGCLASS=H,                                              
+6a7
+> //JOBLIB DD DSN=SYS1.PL1LIB,DISP=SHR
